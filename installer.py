@@ -29,3 +29,4 @@ except Exception as e:
 
 system("git clone https://github.com/MrStewie404/aesthetic-wallpapers.git ~/Downloads/")
 system("cp ./applications/* /usr/applications")
+system("cp ./dotfiles/* ~/.config/")
