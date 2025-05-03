@@ -1,0 +1,57 @@
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Command"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Command"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "Q"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "Enter"
+mods = "Alt"
+
+[terminal]
+
+[colors.cursor]
+cursor = "#f5e0dc"
+text = "#1e1e2e"
+
+[colors.primary]
+background = "#000000"
+foreground = "#cdd6f4"
+
+[colors.selection]
+background = "#f5e0dc"
+text = "#1e1e2e"
+
+[cursor]
+style = "Block"
+
+[font]
+size = 10.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+opacity = 0.6
+startup_mode = "Maximized"
+
+[window.padding]
+x = 10
+y = 10
+
+[keyboard]

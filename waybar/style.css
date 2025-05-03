@@ -1,107 +1,77 @@
 * {
-    /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
-    font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    transition: background-color .3s ease-out;
+  border: none;
+  font-family: "Hack", "Font Awesome 6 Pro";
+  font-size: 14px;
+  font-weight: 600;
+  background: none;
 }
 
 window#waybar {
-    background: rgba(26, 27, 38, 0.75);
-    color: #c0caf5;
-    font-family: 
-        SpaceMono Nerd Font,
-        feather;
-    transition: background-color .5s;
+  color: #a5adcb;
+}
+.modules-left,
+.modules-right,
+.modules-center {
+  border-radius: 6px;
+  background: #181926;
+  padding: 12px 0;
+}
+tooltip {
+  color: #a5adcb;
+  background-color: #181926;
+  text-shadow: none;
 }
 
-.modules-left,
-.modules-center,
-.modules-right
-{
-    background: rgba(0, 0, 8, .7);
-    margin: 5px 10px;
-    padding: 0 5px;
-    border-radius: 15px;
-}
-.modules-left {
-    padding: 0;
+tooltip * {
+  color: #a5adcb;
+  text-shadow: none;
 }
 .modules-center {
-    padding: 0 10px;
 }
 
+#custom-sep {
+  color: #494d64;
+  margin: 4px 0;
+}
+#workspaces,
 #clock,
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
-#network,
+#custom-bluetooth_devices,
+#custom-powermenu,
 #pulseaudio,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#language,
-#mpd {
-    padding: 0 10px;
-    border-radius: 15px;
+#tray {
 }
-
-#clock:hover,
-#battery:hover,
-#cpu:hover,
-#memory:hover,
-#disk:hover,
-#temperature:hover,
-#backlight:hover,
-#network:hover,
-#pulseaudio:hover,
-#wireplumber:hover,
-#custom-media:hover,
-#tray:hover,
-#mode:hover,
-#idle_inhibitor:hover,
-#scratchpad:hover,
-#power-profiles-daemon:hover,
-#language:hover,
-#mpd:hover {
-    background: rgba(26, 27, 38, 0.9);
+#workspaces {
+  border-radius: 4px;
 }
-
-
 #workspaces button {
-  background: transparent;
-  font-family:
-    SpaceMono Nerd Font,
-    feather;
-  font-weight: 900;
-  font-size: 13pt;
-  color: #c0caf5;
-  border:none;
-  border-radius: 15px;
+  color: #5b6078;
+  background: none;
+  padding: 0;
 }
-
-#workspaces button.active {
-    background: #13131d; 
-}
-
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
-  box-shadow: none;
+  color: #a6da95;
+}
+#workspaces button.active {
+  color: #f5bde6;
+}
+#temperature {
+  color: #eed49f;
+}
+#clock {
+  font-weight: 600;
+  color: #8bd5ca;
+}
+#custom-bluetooth_devices {
+  color: #8aadf4;
+}
+#pulseaudio {
+  color: #a6da95;
+}
+#pulseaudio.muted {
+  color: #ed8796;
 }
 
-#custom-arch {
-    margin-left: 5px;
-    padding: 0 10px;
-    font-size: 25px;
-    transition: color .5s;
-}
-#custom-arch:hover {
-    color: #1793d1;
+#custom-powermenu {
+  margin: 12px 0 0 0;
+  color: #6e738d;
 }

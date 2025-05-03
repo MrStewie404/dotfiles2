@@ -1,0 +1,15 @@
+# Основные настройки
+location = top
+width = 400
+height = 350
+prompt =  # Пустая строка (без текста приглашения)
+insensitive = true  # Поиск без учета регистра
+height = 350
+allow_images = true  # Показывать иконки приложений
+hide_scroll = true   # Скрыть полосу прокрутки
+term = alacritty     # Терминал для запуска команд
+
+# Дополнительные опции (по желанию)
+# exec_search = false
+# columns = 1
+# dynamic_lines = true
